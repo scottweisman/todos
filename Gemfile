@@ -7,6 +7,7 @@ gem 'high_voltage'
 group :development, :test do
 	gem 'rspec-rails'
 	gem 'capybara', '~> 2.1.0'
+	gem 'shoulda-matchers'
 end
 
 group :assets do
