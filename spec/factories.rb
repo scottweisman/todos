@@ -1,3 +1,5 @@
 FactoryGirl.define do
-	factory :todo
+	factory :todo do
+		owner_email 'person@example.com'
+	end
 end
